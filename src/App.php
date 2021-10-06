@@ -8,6 +8,7 @@ use Http\HttpRequest;
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
 use function FastRoute\simpleDispatcher;
+use MyFrame/
 
 class App
 {
@@ -19,7 +20,6 @@ class App
 
     public function __construct(array $routes)
     {
-        xxx
         $this->routes = $routes;
         $routeDefinitionCallback = function (RouteCollector $r) {
             foreach ($this->routes as $route) {
