@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a114e97-0a5c-4b06-8541-195c437c1885" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controllers/admin/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/BaseEntity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Middleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Middleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/errors/403.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/views/errors/403.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/errors/404.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/views/errors/404.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/errors/405.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/views/errors/405.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/views/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/layouts/app.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/views/layouts/app.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -75,11 +83,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633491786928</updated>
-      <workItem from="1633491788133" duration="250000" />
+      <workItem from="1633491788133" duration="1356000" />
+      <workItem from="1633510268060" duration="2791000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

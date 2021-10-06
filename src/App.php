@@ -8,7 +8,6 @@ use Http\HttpRequest;
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
 use function FastRoute\simpleDispatcher;
-use MyFrame/
 
 class App
 {

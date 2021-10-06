@@ -1,11 +1,8 @@
 <?php
-namespace MyFrame\controllers;
+namespace MyFrame\Controllers;
 
 
 use Http\HttpRequest;
-use http\Exception;
-use Twig\Environment;
-use Twig\Loader\FilesystemLoader;
 
 class HomeController extends BaseController
 {

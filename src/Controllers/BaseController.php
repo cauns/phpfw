@@ -1,5 +1,5 @@
 <?php
-namespace MyFrame\controllers;
+namespace MyFrame\Controllers;
 
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
@@ -9,7 +9,7 @@ class BaseController
     public $twig;
     public function __construct()
     {
-        $load = new FilesystemLoader(dirname(__DIR__)."/resources/views");
+        $load = new FilesystemLoader(dirname(__DIR__)."/Resources/views");
         $this->twig = new Environment($load,[
             'cache' =>dirname(__DIR__).'/vars/caches'
         ]);
