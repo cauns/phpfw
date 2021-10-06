@@ -19,6 +19,7 @@ class App
 
     public function __construct(array $routes)
     {
+        xxx
         $this->routes = $routes;
         $routeDefinitionCallback = function (RouteCollector $r) {
             foreach ($this->routes as $route) {
